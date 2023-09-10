@@ -8,7 +8,14 @@ body {
 	--toggle-radius: 0px;
 	--toggle-thumb-radius: 0px;
 	--slider-thumb-radius: 0px;
+	--font-text-theme: Georgia, serif;
 }
+
+.theme-dark {
+	--background-primary: #6022f0;
+	--background-secondary: #220070;
+  }
+
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
 	display: none;
