@@ -1,3 +1,4 @@
+
 body {
 	--radius-s: 0px;
 	--radius-m: 0px;
@@ -8,12 +9,104 @@ body {
 	--toggle-radius: 0px;
 	--toggle-thumb-radius: 0px;
 	--slider-thumb-radius: 0px;
-	--font-text-theme: Georgia, serif;
+	--font-text-theme: "Pretendard Variable";
+
+
+	/* -- HEADINGS -- */
+	--h1-color: #918dff;
+	--h1-line-height: 30px;
+
+	--h2-color: #ebb0fd;
+	--h2-line-height: 40px;
+
+	--h3-color: #61a9fb;
+	--h3-line-height: 20px;
+
+	--h4-color: #baf6b7;
+	--h4-line-height: 15px;
+
+	--h5-color: #A0D2EB;
+	--h5-line-height: 10px;
+
+
+	/* -- COMPONENTS -- */
+	/* button */
+	--button-radius: 5px;
+
+	/* checkbox */
+	--checkbox-radius: 5px;
+	--checkbox-marker-color: #ffffff;
+	--checkbox-color: #918dff;
+
+	/* toggle */
+	--toggle-radius: 15px;
+	--toggle-thumb-radius: 10px;
+
+	/* modal */
+	--modal-radius: 10px;
+	--modal-border-width: 2px;
+	--modal-border-color: #4e463e;
+
+	/* multi-select pill */
+	--pill-radius: 40px;
+
+	/* text input */
+	--input-radius: 5px;
+	--input-border-width: 2px;
+
+	/* -- EDITORS -- */
+	/* code */
+	--code-background: #1e1e24;
+	--code-white-space: 0.5rem;
+	--code-size: 0.8rem;
+
+	/* horizontal rule (divider) */
+	--hr-color: #292930;
+	--hr-thickness: 5px;
+
+	/* link */
+	--link-color: #918dff;
+	--link-color-hover: #ebb0fd;
+	--link-decoration: none;
+	--link-decoration-hover: none;
+	--link-external-color: #918dff;
+	--link-external-color-hover: #ebb0fd;
+	--link-external-decoration: none;
+	--link-external-decoration-hover: none;
+
+	/* tag */
+	--tag-size: 13px;
+	--tag-color: #918dff;
+	--tag-background: rgba(68, 66, 116, 0.56);
+	--tag-padding-x: 10px;
+	--tag-padding-y: 6px;
+	--tag-radius: 10px;
+	--tag-weight: bold;
+
+	/* prompt */
+	--prompt-border-width: 2px;
+	--prompt-border-color: #4e463e;
+
+	/* -- PLUGINS -- */
+	/* graph */
+	--graph-line: #ffffff5b;
+	--graph-node: #918dff;
+	--graph-node-unresolved: #ffffff;
+	--graph-node-focused: #918dff;
+	--graph-node-tag: #ebb0fd;
+	--graph-node-attachment: #61a9fb;
+
+	--search-result-background: #3e3730;
 }
 
+.theme-light {
+	--background-primary: #ECE4FF;
+	--background-secondary: #D9C9FF;
+  }
+
 .theme-dark {
-	--background-primary: #6022f0;
-	--background-secondary: #220070;
+	--background-primary: #2e2e36;
+	--background-secondary: #4e463e;
   }
 
 
