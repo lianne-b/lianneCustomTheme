@@ -1,5 +1,6 @@
 ### Obsidian Custom Theme
 #### 🍦 Sandy Ice Cream (temporary)
+- To be updated
 
 <img src = "https://github.com/lianne-b/lianneCustomTheme/assets/89244357/e5fb67b1-dbe0-441d-9de3-5d82b8c28b90" height = "300">
 
